@@ -1,3 +1,12 @@
+/*
+DOCUMENT COLORS
+Green						9a9e08
+Light Green			bc1919	202	211	9
+Red							bc1919
+Grey						262727
+
+
+*/
 * {
 	margin: 0;
 	padding: 0;
@@ -9,5 +18,5 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 }
 
 html {
-    background: url(images/)
+	background: url(images/)
 }
