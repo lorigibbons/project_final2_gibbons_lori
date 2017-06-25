@@ -1,16 +1,16 @@
 /*
 DOCUMENT COLORS
 Green						9a9e08     9a9e08
-Light Green			bc1919    202	211	9
+Light Green			cad309    202	211	9
 Red							bc1919    188 25 25
 Grey						dbdbda    219 219 218
 
 FONTS:
-Menu:
+Menu
 font-family: 'Megrim', cursive;
 Subheads:
 font-family: 'Nosifer', cursive;
-Headlines:
+Headlines and p:
 font-family: 'Montserrat', sans-serif;
 */
 * {
@@ -25,6 +25,10 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 article, aside, details, figcaption, figure, main, nav, section, summary {
     margin: 10px 10px;
 }
+/*LINK ATTRIBUTES*/
+a {
+  color: #9a9e08;
+}
 /*FONTS*/
 nav ul li a {
   font-family: 'Megrim', cursive;
@@ -34,13 +38,31 @@ nav ul li a {
 h1 {
   font-family: 'Montserrat', sans-serif;
 }
-p {
-
+h2 {
+    padding: 10px;
+    font-family: 'Nosifer', cursive;
+    text-align: center;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+}
+p,
+time {
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
 }
 
 /*HEADER*/
 html {
   background-color: #dbdbda;
+}
+header {
+  background-image: url('img/woodbackground.png');
+  width: 100%;
+  height: auto;
+  background-position: top;
+  background-repeat: repeat;
 }
 nav ul li {
   text-align: center;
@@ -56,16 +78,84 @@ header img:nth-of-type(1){
   display: block;
   margin: auto;
   width: 100%;
-  display: relative;
 }
 header img:nth-of-type(2){
   display: block;
   margin: auto;
-  width: 60%;
-  display: absolute;
+  margin: 0 10px;
 }
-header img:nth-of-type(3){
+/*SECTION*/
+section article {
+  background-color: white;
+  width: 90%;
+  display: block;
+  margin: 10px 5%;
+}
+section article img {
+  width: 30%;
   display: block;
   margin: auto;
-  margin: 0 10px;
+}
+/*FOOTER*/
+#footercontainer {
+  padding: 20px;
+}
+footer {
+  background-color: #262727;
+  width: 100%;
+  position: relative;
+}
+footer p {
+  color: white;
+  text-align: center;
+}
+footer img:nth-of-type(1) {
+  width: 20%;
+  float: left;
+  margin: 36px 0;
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+  transform: rotate(90deg);
+}
+footer img:nth-of-type(2) {
+  display: none;
+  width: 20%;
+}
+footer img:nth-of-type(3) {
+  display: none;
+  width: 20%;
+  -ms-transform: rotate(180deg); /* IE 9 */
+  -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+  transform: rotate(180deg);
+}
+footer img:nth-of-type(4) {
+  width: 20%;
+  float: right;
+  margin: 36px 0;
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+  transform: rotate(90deg);
+}
+#address {
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+/*CLEAR FIX*/
+
+#footercontainer::after {
+  content: ' ';
+  clear: both;
+  display: block;
+}
+/*MEDIA QUERIES*/
+@media (min-width: 800px) {
+  ul li {
+    display: inline;
+    padding: 5px 4%;
+  }
+  ul {
+    text-align: center;
+  }
+
 }
