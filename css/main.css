@@ -92,6 +92,9 @@ header img:nth-of-type(2){
   max-width: 550px;
 }
 /*SECTION*/
+#sectioncontainer {
+  margin: auto;
+}
 section article {
   background-color: white;
   width: 90%;
