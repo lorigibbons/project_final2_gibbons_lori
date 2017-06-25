@@ -25,6 +25,9 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 article, aside, details, figcaption, figure, main, nav, section, summary {
     margin: 10px 10px;
 }
+#sectioncontainer {
+  max-width: 1300px;
+}
 /*LINK ATTRIBUTES*/
 a {
   color: #9a9e08;
