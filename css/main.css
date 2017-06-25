@@ -39,11 +39,13 @@ h1 {
   font-family: 'Montserrat', sans-serif;
 }
 h2 {
+    font-size: 2rem;
     padding: 10px;
     font-family: 'Nosifer', cursive;
     text-align: center;
 }
 h3 {
+  font-size: 1.3rem;
   font-family: 'Montserrat', sans-serif;
   padding: 10px;
 }
@@ -51,6 +53,7 @@ p,
 time {
   font-family: 'Montserrat', sans-serif;
   padding: 10px;
+  font-size: .9rem;
 }
 
 /*HEADER*/
