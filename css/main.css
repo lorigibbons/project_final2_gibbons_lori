@@ -155,7 +155,6 @@ footer img:nth-of-type(4) {
   font-size: 0.5rem;
 }
 /*CLEAR FIX*/
-
 #footercontainer::after {
   content: ' ';
   clear: both;
@@ -170,5 +169,19 @@ footer img:nth-of-type(4) {
   ul {
     text-align: center;
   }
-
+  section img {
+    max-width: 190px;
+  }
+}
+@media (min-width: 900px) {
+  section article {
+    width: calc(100% / 3);
+    float: left;
+  }
+  /*CLEAR FIX*/
+  #sectioncontainer::after {
+    content: ' ';
+    clear: both;
+    display: block;
+  }
 }
