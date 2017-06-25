@@ -32,11 +32,20 @@ article, aside, details, figcaption, figure, main, nav, section, summary {
 a {
   color: #9a9e08;
 }
+a:link, a:visited{
+  color: #9a9e08;
+}
+a:hover, a:active {
+  color: #bc1919
+}
 /*FONTS*/
 nav ul li a {
   font-family: 'Megrim', cursive;
   font-weight: bolder;
   font-size: 2rem;
+}
+nav ul li a:link, nav ul li a:visited{
+  color: black;
 }
 h1 {
   font-family: 'Montserrat', sans-serif;
@@ -155,7 +164,7 @@ footer img:nth-of-type(4) {
   transform: rotate(90deg);
 }
 #address {
-  width: 50%;
+  width: 60%;
   float: left;
   display: block;
   margin: auto;
