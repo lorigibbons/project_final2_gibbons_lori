@@ -102,10 +102,12 @@ time {
 html {
   background-color: #dbdbda;
 }
-header {
-  background-image: url('../img/woodbackground.png');
-  width: 100%;
-  padding-bottom: 15px;
+.parallax {
+    background-image: url('../img/woodbackground.png');
+    width: 100%;
+    padding-bottom: 15px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
 }
 nav ul li {
   text-align: center;
