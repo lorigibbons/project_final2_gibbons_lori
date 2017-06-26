@@ -103,11 +103,9 @@ html {
   background-color: #dbdbda;
 }
 header {
-  background-image: url('img/woodbackground.png');
+  background-image: url('../img/woodbackground.png');
   width: 100%;
-  height: auto;
-  background-position: top;
-  background-repeat: repeat;
+  padding-bottom: 15px;
 }
 nav ul li {
   text-align: center;
@@ -134,6 +132,7 @@ header img:nth-of-type(2){
 /*SECTION*/
 #sectioncontainer {
   margin: auto;
+  padding-top: 15px;
 }
 section article {
   background-color: white;
