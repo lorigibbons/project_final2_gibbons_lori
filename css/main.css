@@ -31,8 +31,8 @@ article, aside, details, figcaption, figure, main, nav, section, summary {
 }
 /*BUTTON STYLING*/
 .centerbutton {
-  margin: auto;
-  width: 30%;
+    width: 100%;
+
 }
 .button {
   background-color: white;
@@ -44,16 +44,17 @@ article, aside, details, figcaption, figure, main, nav, section, summary {
   display: inline-block;
   font-size: 16px;
   font-family: 'Nosifer', cursive;
-  margin: 4px 2px;
   -webkit-transition-duration: 0.4s; /* Safari */
   -moz-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   cursor: pointer;
 }
 .button1 {
-  background-color: red;
-  color: white;
-  border: 2px solid #bc1919;
+    display: block;
+    margin: auto;
+    background-color: #bc1919;
+    color: white;
+    border: 2px solid #bc1919;
 }
 .button1:hover {
     background-color: rgb(232, 107, 90);
