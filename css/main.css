@@ -46,6 +46,7 @@ article, aside, details, figcaption, figure, main, nav, section, summary {
   font-family: 'Nosifer', cursive;
   margin: 4px 2px;
   -webkit-transition-duration: 0.4s; /* Safari */
+  -moz-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   cursor: pointer;
 }
