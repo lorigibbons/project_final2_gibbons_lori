@@ -55,8 +55,9 @@ article, aside, details, figcaption, figure, main, nav, section, summary {
   border: 2px solid #bc1919;
 }
 .button1:hover {
-  background-color: rgb(232, 107, 90);
-  color: white;
+    background-color: rgb(232, 107, 90);
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
 }
 /*LINK ATTRIBUTES*/
 a {
