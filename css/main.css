@@ -64,6 +64,7 @@ article, aside, details, figcaption, figure, main, nav, section, summary {
 /*LINK ATTRIBUTES*/
 a {
   color: #9a9e08;
+  text-decoration: none;
 }
 a:link, a:visited{
   color: #9a9e08;
@@ -71,7 +72,7 @@ a:link, a:visited{
 a:hover, a:active {
   color: #bc1919
 }
-/*Paragraph link hover effect*/
+/*Paragraph link hover background color*/
 p a:hover, p a:active {
   color: white;
   background-color: rgb(187, 25, 25);
