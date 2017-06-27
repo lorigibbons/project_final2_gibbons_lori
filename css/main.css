@@ -71,6 +71,15 @@ a:link, a:visited{
 a:hover, a:active {
   color: #bc1919
 }
+/*Paragraph link hover effect*/
+p a:hover, p a:active {
+  color: white;
+  background-color: rgb(187, 25, 25);
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
 /*Menu underline effect  http://tobiasahlin.com/blog/css-trick-animating-link-underlines/  */
 nav ul li a {
     position: relative;
