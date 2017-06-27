@@ -63,7 +63,6 @@ article, aside, details, figcaption, figure, main, nav, section, summary {
 }
 /*LINK ATTRIBUTES*/
 a {
-  color: #9a9e08;
   text-decoration: none;
 }
 a:link, a:visited{
@@ -74,6 +73,10 @@ a:hover, a:active {
 }
 /*Paragraph link hover background color
 https://www.w3schools.com/cssref/tryit.asp?filename=trycss_sel_hover_more*/
+p a:link {
+    color: black;
+    border-bottom: 3px solid #bc1919;
+}
 p a:hover, p a:active {
   color: white;
   background-color: rgb(187, 25, 25);
