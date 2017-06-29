@@ -126,6 +126,9 @@ h2 {
   font-family: 'Nosifer', cursive;
   text-align: center;
 }
+nav h2 {
+    display: none;
+}
 h3 {
   font-size: 1.3rem;
   font-family: 'Montserrat', sans-serif;
