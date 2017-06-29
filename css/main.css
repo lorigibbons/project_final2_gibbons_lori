@@ -8,7 +8,7 @@ Grey						dbdbda    219 219 218
 FONTS:
 Menu
 font-family: 'Megrim', cursive;
-Subheads:
+Heads
 font-family: 'Nosifer', cursive;
 Headlines and p:
 font-family: 'Montserrat', sans-serif;
@@ -20,10 +20,10 @@ font-family: 'Montserrat', sans-serif;
 }
 
 article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
-    display:block;
+  display:block;
 }
 article, aside, details, figcaption, figure, main, nav, section, summary {
-    margin: 10px 10px;
+  margin: 10px 10px;
 }
 #sitecontainer {
   max-width: 1300px;
@@ -31,8 +31,7 @@ article, aside, details, figcaption, figure, main, nav, section, summary {
 }
 /*BUTTON STYLING*/
 .centerbutton {
-    width: 100%;
-
+  width: 100%;
 }
 .button {
   background-color: white;
@@ -50,16 +49,16 @@ article, aside, details, figcaption, figure, main, nav, section, summary {
   cursor: pointer;
 }
 .button1 {
-    display: block;
-    margin: auto;
-    background-color: #bc1919;
-    color: white;
-    border: 2px solid #bc1919;
+  display: block;
+  margin: auto;
+  background-color: #bc1919;
+  color: white;
+  border: 2px solid #bc1919;
 }
 .button1:hover {
-    background-color: rgb(232, 107, 90);
-    color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+  background-color: rgb(232, 107, 90);
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
 }
 /*LINK ATTRIBUTES*/
 a {
@@ -74,8 +73,8 @@ a:hover, a:active {
 /*Paragraph link hover background color
 https://www.w3schools.com/cssref/tryit.asp?filename=trycss_sel_hover_more*/
 p a:link {
-    color: black;
-    border-bottom: 3px solid #bc1919;
+  color: black;
+  border-bottom: 3px solid #bc1919;
 }
 p a:hover, p a:active {
   color: white;
@@ -87,26 +86,26 @@ p a:hover, p a:active {
 }
 /*Menu underline effect  http://tobiasahlin.com/blog/css-trick-animating-link-underlines/  */
 nav ul li a {
-    position: relative;
+  position: relative;
 }
 nav ul li a:before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 3px;
-    bottom: -5px;
-    left: 0;
-    background-color: #bc1919;
-    visibility: hidden;
-    -webkit-transform: scaleX(0);
-    transform: scaleX(0);
-    -webkit-transition: all 0.3s ease-in-out 0s;
-    transition: all 0.3s ease-in-out 0s;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: -5px;
+  left: 0;
+  background-color: #bc1919;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
 }
 nav ul li a:hover:before {
-    visibility: visible;
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1);
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }
 /*FONTS*/
 nav ul li a {
@@ -118,13 +117,14 @@ nav ul li a:link, nav ul li a:visited{
   color: black;
 }
 h1 {
+  display: none;
   font-family: 'Montserrat', sans-serif;
 }
 h2 {
-    font-size: 2rem;
-    padding: 10px;
-    font-family: 'Nosifer', cursive;
-    text-align: center;
+  font-size: 2rem;
+  padding: 10px;
+  font-family: 'Nosifer', cursive;
+  text-align: center;
 }
 h3 {
   font-size: 1.3rem;
@@ -142,12 +142,14 @@ time {
 html {
   background-color: #dbdbda;
 }
+/*Parallax instructions:
+https://www.w3schools.com/howto/howto_css_parallax.asp*/
 .parallax {
-    background-image: url('../img/woodbackground.png');
-    width: 100%;
-    padding-bottom: 15px;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
+  background-image: url('../img/woodbackground.png');
+  width: 100%;
+  padding-bottom: 15px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
 }
 nav ul li {
   text-align: center;
@@ -251,26 +253,26 @@ footer img:nth-of-type(4) {
 /*WIGGLER https://harrybailey.com/2011/09/css3-element-wiggle-with-keyframes/*/
 /* safari and chrome */
 @-webkit-keyframes wiggle {
-	0% {-webkit-transform:rotate(94deg);}
-	50% {-webkit-transform:rotate(90deg);}
-	100% {-webkit-transform:rotate(94deg);}
+  0% {-webkit-transform:rotate(94deg);}
+  50% {-webkit-transform:rotate(90deg);}
+  100% {-webkit-transform:rotate(94deg);}
 }
 /* firefox */
 @-moz-keyframes wiggle {
-	0% {-moz-transform:rotate(94deg);}
-	50% {-moz-transform:rotate(90deg);}
-	100% {-moz-transform:rotate(94deg);}
+  0% {-moz-transform:rotate(94deg);}
+  50% {-moz-transform:rotate(90deg);}
+  100% {-moz-transform:rotate(94deg);}
 }
 /* anyone brave enough to implement the ideal method */
 @keyframes wiggle {
-	0% {transform:rotate(94deg);}
-	50% {transform:rotate(90deg);}
-	100% {transform:rotate(94deg);}
+  0% {transform:rotate(94deg);}
+  50% {transform:rotate(90deg);}
+  100% {transform:rotate(94deg);}
 }
 .wiggler:hover {
-	-webkit-animation: wiggle 0.3s infinite;
-	-moz-animation: wiggle 0.3s infinite;
-	animation: wiggle 0.3s infinite;
+  -webkit-animation: wiggle 0.3s infinite;
+  -moz-animation: wiggle 0.3s infinite;
+  animation: wiggle 0.3s infinite;
 }
 /*MEDIA QUERIES*/
 @media (min-width: 600px) {
@@ -304,7 +306,7 @@ footer img:nth-of-type(4) {
   }
 }
 @media (min-width: 1000px) {
-    footer img:nth-of-type(2) {
+  footer img:nth-of-type(2) {
     display: block;
     position: absolute;
     width: 10%;
