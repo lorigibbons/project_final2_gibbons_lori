@@ -1,11 +1,13 @@
 # Links
 [My Github link](https://github.com/lorruche/project_final2_gibbons_lori)
 
-[My Web Host Link ]()
+[My Web Host Link ](http://lorigibbons.com/harryhausensprototype/)
 
-[W3C Validator Links]()
+[W3C Validator
+Links](https://validator.w3.org/nu/?doc=http%3A%2F%2Florigibbons.com%2Fharryhausensprototype%2F)
 
-[HTML5 Outliner link ]()
+[HTML5 Outliner link
+](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Florigibbons.com%2Fharryhausensprototype%2F)
 
 # Resources
 * [How to highlight word on hover](https://www.w3schools.com/cssref/tryit.asp?filename=trycss_sel_hover_more)
@@ -31,3 +33,7 @@ to
 plan for this outlining from the beginning of the project (i.e. content
 and
 outline first).
+
+I also know that I am getting one error in the W3C Validator for the Google
+Fonts used.  This is the code Google gave me and always shows up in the
+validator.
