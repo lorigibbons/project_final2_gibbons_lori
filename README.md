@@ -33,7 +33,10 @@ to
 plan for this outlining from the beginning of the project (i.e. content
 and
 outline first).
+<<<<<<< HEAD
 
 I also know that I am getting one error in the W3C Validator for the Google
 Fonts used.  This is the code Google gave me and always shows up in the
 validator.
+=======
+>>>>>>> 174d5e45b503ea49d4a49efa79167054f2b8d3ee
